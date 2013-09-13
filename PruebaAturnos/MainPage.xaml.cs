@@ -31,7 +31,7 @@ namespace PruebaAturnos
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             navegador.Navigate(new Uri("http://www.marca.com"));
-            System.Diagnostics.Debug.WriteLine("llega a este punto");
+            System.Diagnostics.Debug.WriteLine("llega a este puntoOOOO");
            //haciendo algun cambio
         }
 

@@ -40,7 +40,7 @@ namespace PruebaAturnos
 
             ApplicationBarIconButton button1 = new ApplicationBarIconButton();
            button1.IconUri = new Uri("/iconos/close.png", UriKind.Relative);
-            button1.Text = "Home";
+            button1.Text = "Homee";
             ApplicationBar.Buttons.Add(button1);
 
             ApplicationBarIconButton button2 = new ApplicationBarIconButton();

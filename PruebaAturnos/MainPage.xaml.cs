@@ -33,6 +33,7 @@ namespace PruebaAturnos
             navegador.Navigate(new Uri("http://www.marca.com"));
             System.Diagnostics.Debug.WriteLine("llega a este puntoOOOO");
             System.Diagnostics.Debug.WriteLine("Añado esto");
+            System.Diagnostics.Debug.WriteLine("Añado otra cosa");
            //haciendo algun cambio
         }
 

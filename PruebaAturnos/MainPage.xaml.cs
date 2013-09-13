@@ -34,7 +34,7 @@ namespace PruebaAturnos
             System.Diagnostics.Debug.WriteLine("llega a este puntoOOOO");
             System.Diagnostics.Debug.WriteLine("Añado esto");
             System.Diagnostics.Debug.WriteLine("Añado otra cosa");
-           //haciendo algun cambio
+           //Un comentario
         }
 
     

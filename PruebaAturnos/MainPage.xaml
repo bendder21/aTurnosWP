@@ -21,24 +21,18 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contiene el nombre de la aplicación y el título de la página-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Aturnos" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Height="77">
-            	<Run Text="HOLA MUNDO"/>
-            	<LineBreak/>
-            	<Run/>
-            </TextBlock>
-        </StackPanel>
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28"/>
 
         <!--ContentPanel. Colocar aquí el contenido adicional-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,112,12,0">
+        <Grid x:Name="ContentPanel" Margin="12,0,12,10" Grid.Row="1" Height="713" VerticalAlignment="Bottom">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
                 <ColumnDefinition Width="287*"/>
                 <ColumnDefinition Width="169*"/>
             </Grid.ColumnDefinitions>
-            <phone:WebBrowser HorizontalAlignment="Left" Margin="28,68,0,0" Name="navegador" VerticalAlignment="Top" Width="418" RenderTransformOrigin="0.5,0.5" Height="354" Grid.ColumnSpan="2"/>
+            <phone:WebBrowser HorizontalAlignment="Left" Name ="navegador" Margin="-9,10,0,10" Width="455" Grid.ColumnSpan="2" Grid.Column="1"/>
         </Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="133,0,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click_1"/>
     </Grid>
- 
+
+
 </phone:PhoneApplicationPage>

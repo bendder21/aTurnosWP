@@ -26,6 +26,8 @@ namespace PruebaAturnos
          //   WebBrowserTask pruebaweb = new WebBrowserTask();
          //   pruebaweb.Uri = new Uri("www.aturnos.com/indexm.php");
          //   pruebaweb.Show();
+            //
+            //no
             
             
             ApplicationBar = new ApplicationBar();
